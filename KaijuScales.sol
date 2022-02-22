@@ -1,7 +1,7 @@
 pragma solidity >= 0.8;
 
-import "./node_modules/@openzeppelin/contracts/token/ERC777/ERC777.sol";
-import "./node_modules/@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC777/ERC777.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 contract KaijuScales is ERC777, Ownable {
